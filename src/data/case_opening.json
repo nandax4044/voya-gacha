@@ -1,0 +1,524 @@
+{
+  "chests": [
+    {
+      "id": "fishing",
+      "name": "Fishing Chest",
+      "price": 50,
+      "icon": "🎣",
+      "color": "from-cyan-500 to-blue-600",
+      "background": "linear-gradient(135deg, #091728 0%, #0d273c 100%)",
+      "image": "/images/fishing_chest.png",
+      "items": [
+        {
+          "name": "Wigly",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 5,
+          "icon": "🥾",
+          "color": "#a1a1aa",
+          "image": "/images/wigly.png"
+        },
+        {
+          "name": "Cotd",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 30,
+          "icon": "🐟",
+          "color": "#3b82f6",
+          "image": "/images/cotd.png"
+        },
+        {
+          "name": "Golden Rod",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 120,
+          "icon": "🧵",
+          "color": "#a855f7",
+          "image": "/images/goldenrod.png"
+        },
+        {
+          "name": "Fishing Hat",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 450,
+          "icon": "🎣",
+          "color": "#eab308",
+          "image": "/images/hatfishing.png"
+        },
+        {
+          "name": "Thanks Giving Rod",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 2500,
+          "icon": "🔱",
+          "color": "#ef4444",
+          "image": "/images/tgrod.png"
+        }
+      ]
+    },
+    {
+      "id": "farm",
+      "name": "Farm Chest",
+      "price": 80,
+      "icon": "🌾",
+      "color": "from-[#38bdf8] to-[#0369a1]",
+      "background": "linear-gradient(135deg, #04121d 0%, #0f2d45 100%)",
+      "image": "/images/farm_chest.png",
+      "items": [
+        {
+          "name": "Rusty Pitchfork",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 10,
+          "icon": "🔱",
+          "color": "#a1a1aa",
+          "image": "https://picsum.photos/seed/rust_fork/150/150"
+        },
+        {
+          "name": "Oversized Pumpkin",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 45,
+          "icon": "🎃",
+          "color": "#3b82f6",
+          "image": "https://picsum.photos/seed/gargantuan_pumpkin/150/150"
+        },
+        {
+          "name": "Tractor Keys",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 180,
+          "icon": "🔑",
+          "color": "#a855f7",
+          "image": "https://picsum.photos/seed/tractor_key/150/150"
+        },
+        {
+          "name": "Golden Harvest Apple",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 650,
+          "icon": "🍎",
+          "color": "#eab308",
+          "image": "https://picsum.photos/seed/gold_apple/150/150"
+        },
+        {
+          "name": "Abundance Demeter Scythe",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 3200,
+          "icon": "⚔️",
+          "color": "#ef4444",
+          "image": "/images/prize_farm.png"
+        }
+      ]
+    },
+    {
+      "id": "weapon",
+      "name": "Weapon Chest",
+      "price": 120,
+      "icon": "⚔️",
+      "color": "from-sky-400 to-indigo-600",
+      "background": "linear-gradient(135deg, #081123 0%, #0d2346 100%)",
+      "image": "/images/weapon_chest.png",
+      "items": [
+        {
+          "name": "Iron Dagger",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 15,
+          "icon": "🗡️",
+          "color": "#a1a1aa",
+          "image": "https://picsum.photos/seed/iron_blade/150/150"
+        },
+        {
+          "name": "Carbon Steel Katana",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 70,
+          "icon": "⚔️",
+          "color": "#3b82f6",
+          "image": "https://picsum.photos/seed/steel_katana/150/150"
+        },
+        {
+          "name": "Cyber Laser Carbine",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 280,
+          "icon": "🔫",
+          "color": "#a855f7",
+          "image": "https://picsum.photos/seed/laser_carb/150/150"
+        },
+        {
+          "name": "Plasma Radiant Sword",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 950,
+          "icon": "⚡",
+          "color": "#eab308",
+          "image": "https://picsum.photos/seed/plasma_sword/150/150"
+        },
+        {
+          "name": "Asgardian Thunder Hammer",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 4800,
+          "icon": "🔨",
+          "color": "#ef4444",
+          "image": "/images/prize_weapon.png"
+        }
+      ]
+    },
+    {
+      "id": "magic",
+      "name": "Magic Chest",
+      "price": 150,
+      "icon": "🔮",
+      "color": "from-cyan-400 to-blue-600",
+      "background": "linear-gradient(135deg, #06111f 0%, #0b223d 100%)",
+      "image": "/images/magic_chest.png",
+      "items": [
+        {
+          "name": "Initiate Crystal Wand",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 20,
+          "icon": "🪄",
+          "color": "#a1a1aa",
+          "image": "https://picsum.photos/seed/crystal_wand/150/150"
+        },
+        {
+          "name": "Luminous Mana Elixir",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 90,
+          "icon": "🧪",
+          "color": "#3b82f6",
+          "image": "https://picsum.photos/seed/mana_pot/150/150"
+        },
+        {
+          "name": "Grimoire of Fireball",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 350,
+          "icon": "📖",
+          "color": "#a855f7",
+          "image": "https://picsum.photos/seed/grimoire_fire/150/150"
+        },
+        {
+          "name": "Robe of Archmage",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 1100,
+          "icon": "🥋",
+          "color": "#eab308",
+          "image": "https://picsum.photos/seed/mage_robe/150/150"
+        },
+        {
+          "name": "Sorcerer Supreme Staff",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 5500,
+          "icon": "🔮",
+          "color": "#ef4444",
+          "image": "/images/prize_magic.png"
+        }
+      ]
+    },
+    {
+      "id": "animal",
+      "name": "Animal Chest",
+      "price": 60,
+      "icon": "🦊",
+      "color": "from-blue-400 to-sky-700",
+      "background": "linear-gradient(135deg, #051421 0%, #0b243b 100%)",
+      "image": "/images/animal_chest.png",
+      "items": [
+        {
+          "name": "Farmyard Chick Egg",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 8,
+          "icon": "🥚",
+          "color": "#a1a1aa",
+          "image": "https://picsum.photos/seed/chick_egg/150/150"
+        },
+        {
+          "name": "Fierce Timber Wolf Pup",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 35,
+          "icon": "🐺",
+          "color": "#3b82f6",
+          "image": "https://picsum.photos/seed/wolf_pup/150/150"
+        },
+        {
+          "name": "Crystalline Night Owl",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 140,
+          "icon": "🦉",
+          "color": "#a855f7",
+          "image": "https://picsum.photos/seed/night_owl/150/150"
+        },
+        {
+          "name": "Golden Griffin Mount",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 520,
+          "icon": "🦁",
+          "color": "#eab308",
+          "image": "https://picsum.photos/seed/griffin_mount/150/150"
+        },
+        {
+          "name": "Eternity Phoenix Soul",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 2800,
+          "icon": "🦅",
+          "color": "#ef4444",
+          "image": "/images/prize_animal.png"
+        }
+      ]
+    },
+    {
+      "id": "treasure",
+      "name": "Treasure Chest",
+      "price": 200,
+      "icon": "👑",
+      "color": "from-cyan-500 to-sky-600",
+      "background": "linear-gradient(135deg, #041423 0%, #0c2a47 100%)",
+      "image": "/images/treasure_chest.png",
+      "items": [
+        {
+          "name": "Verdigris Copper Coin",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 25,
+          "icon": "🪙",
+          "color": "#a1a1aa",
+          "image": "https://picsum.photos/seed/copper_coin/150/150"
+        },
+        {
+          "name": "Heavy Silver Ingot",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 120,
+          "icon": "🥈",
+          "color": "#3b82f6",
+          "image": "https://picsum.photos/seed/silver_ingot/150/150"
+        },
+        {
+          "name": "Royal Ruby Crest",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 480,
+          "icon": "👑",
+          "color": "#a855f7",
+          "image": "https://picsum.photos/seed/ruby_crest/150/150"
+        },
+        {
+          "name": "Cursed Pirate King Crown",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 1600,
+          "icon": "👑",
+          "color": "#eab308",
+          "image": "https://picsum.photos/seed/pirate_crown/150/150"
+        },
+        {
+          "name": "Sacred El Dorado Idol",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 8500,
+          "icon": "🗿",
+          "color": "#ef4444",
+          "image": "/images/prize_treasure.png"
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "name": "Space Chest",
+      "price": 250,
+      "icon": "🚀",
+      "color": "from-sky-500 to-[#1d4ed8]",
+      "background": "linear-gradient(135deg, #030a1c 0%, #0a1f4a 100%)",
+      "image": "/images/space_chest.png",
+      "items": [
+        {
+          "name": "Raw Meteorite Shard",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 30,
+          "icon": "☄️",
+          "color": "#a1a1aa",
+          "image": "https://picsum.photos/seed/meteor_shard/150/150"
+        },
+        {
+          "name": "Zero-G Magneto Boots",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 150,
+          "icon": "🥾",
+          "color": "#3b82f6",
+          "image": "https://picsum.photos/seed/zero_boot/150/150"
+        },
+        {
+          "name": "High-Yield Ion Thruster",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 600,
+          "icon": "⚙️",
+          "color": "#a855f7",
+          "image": "https://picsum.photos/seed/ion_thruster/150/150"
+        },
+        {
+          "name": "Hyper-Gravity Gauntlets",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 2000,
+          "icon": "🥊",
+          "color": "#eab308",
+          "image": "https://picsum.photos/seed/grav_gloves/150/150"
+        },
+        {
+          "name": "Cosmic Supernova Core",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 10000,
+          "icon": "💥",
+          "color": "#ef4444",
+          "image": "/images/prize_space.png"
+        }
+      ]
+    },
+    {
+      "id": "ocean",
+      "name": "Ocean Chest",
+      "price": 100,
+      "icon": "🌊",
+      "color": "from-sky-400 to-blue-600",
+      "background": "linear-gradient(135deg, #031424 0%, #0c2b47 100%)",
+      "image": "/images/ocean_chest.png",
+      "items": [
+        {
+          "name": "Iridescent Sea Glass",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 12,
+          "icon": "💎",
+          "color": "#a1a1aa",
+          "image": "https://picsum.photos/seed/sea_glass/150/150"
+        },
+        {
+          "name": "Deep Reef Coral Blade",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 55,
+          "icon": "🗡️",
+          "color": "#3b82f6",
+          "image": "https://picsum.photos/seed/coral_blade/150/150"
+        },
+        {
+          "name": "Black Conch Pearl Ring",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 220,
+          "icon": "💍",
+          "color": "#a855f7",
+          "image": "https://picsum.photos/seed/pearl_ring/150/150"
+        },
+        {
+          "name": "Sub ocean Neptune Trident",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 800,
+          "icon": "🔱",
+          "color": "#eab308",
+          "image": "https://picsum.photos/seed/nep_trident/150/150"
+        },
+        {
+          "name": "Poseidon Sea-Core Shard",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 4000,
+          "icon": "🌀",
+          "color": "#ef4444",
+          "image": "/images/prize_ocean.png"
+        }
+      ]
+    },
+    {
+      "id": "dragon",
+      "name": "Dragon Chest",
+      "price": 300,
+      "icon": "🐉",
+      "color": "from-[#0284c7] via-[#0369a1] to-[#075985]",
+      "background": "linear-gradient(135deg, #02101e 0%, #0b2641 100%)",
+      "image": "/images/dragon_chest.png",
+      "items": [
+        {
+          "name": "Hardened Dragon Scale Shield",
+          "rarity": "Common",
+          "chance": 60,
+          "value": 35,
+          "icon": "🛡️",
+          "color": "#a1a1aa",
+          "image": "https://picsum.photos/seed/dragon_shield/150/150"
+        },
+        {
+          "name": "Razor-Sharp Wyvern Wing",
+          "rarity": "Rare",
+          "chance": 25,
+          "value": 180,
+          "icon": "🪽",
+          "color": "#3b82f6",
+          "image": "https://picsum.photos/seed/dragon_wing/150/150"
+        },
+        {
+          "name": "Furnace Dragon Claw",
+          "rarity": "Epic",
+          "chance": 10,
+          "value": 750,
+          "icon": "🐾",
+          "color": "#a855f7",
+          "image": "https://picsum.photos/seed/dragon_claw/150/150"
+        },
+        {
+          "name": "Ancient Volcanic Wyrm Staff",
+          "rarity": "Legendary",
+          "chance": 4,
+          "value": 2400,
+          "icon": "🪄",
+          "color": "#eab308",
+          "image": "https://picsum.photos/seed/volcanic_staff/150/150"
+        },
+        {
+          "name": "Heart of the Dragon Lord",
+          "rarity": "Mythic",
+          "chance": 1,
+          "value": 12500,
+          "icon": "❤️",
+          "color": "#ef4444",
+          "image": "/images/prize_dragon.png"
+        }
+      ]
+    }
+  ],
+  "gameSettings": {
+    "defaultSpinDurationMs": 5500,
+    "fastSpinDurationMs": 1500,
+    "soundEnabled": true,
+    "enableMotionBlur": true,
+    "enableRarityGlow": true,
+    "classicRealisticEasing": true,
+    "spinEasing": "cubic-bezier(0.04, 0.84, 0.12, 1)",
+    "soundTickFrequencyHz": 220,
+    "showInteractiveSettings": true,
+    "maxTapeSize": 65,
+    "winningTargetIndex": 52,
+    "pointerShadowGlowHex": "#38bdf8",
+    "winRateMultiplier": 1.0,
+    "mythicChanceBoost": 0.0
+  }
+}

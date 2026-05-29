@@ -1,0 +1,65 @@
+{
+  "prizes": [
+    {
+      "id": "1",
+      "name": "Luxury Hypercar 🏎️",
+      "image": "/images/wheel_car.png",
+      "color": "#0284c7",
+      "chance": 5
+    },
+    {
+      "id": "2",
+      "name": "Fine Gold Bullion 🪙",
+      "image": "/images/wheel_gold.png",
+      "color": "#38bdf8",
+      "chance": 12
+    },
+    {
+      "id": "3",
+      "name": "iPhone 15 Pro 📱",
+      "image": "/images/wheel_phone.png",
+      "color": "#0369a1",
+      "chance": 18
+    },
+    {
+      "id": "4",
+      "name": "Bali Vacation Trip 🏝️",
+      "image": "/images/wheel_island.png",
+      "color": "#0c4a6e",
+      "chance": 15
+    },
+    {
+      "id": "5",
+      "name": "PlayStation 5 Console 🎮",
+      "image": "/images/wheel_console.png",
+      "color": "#1e3a8a",
+      "chance": 22
+    },
+    {
+      "id": "6",
+      "name": "Bali Vacation Trip 🏝️",
+      "image": "/images/wheel_island.png",
+      "color": "#0c4a6e",
+      "chance": 15
+    },
+    {
+      "id": "7",
+      "name": "tg rod",
+      "image": "/images/tgrod.png",
+      "color": "#172554",
+      "chance": 28
+    }
+  ],
+  "settings": {
+    "speed": "normal",
+    "duration": 6,
+    "autoRemove": false,
+    "soundEnabled": true,
+    "canvasSize": 700,
+    "glowAnimation": true,
+    "textGlowEffect": true,
+    "shadowDepth": 15,
+    "colorHighlightHex": "#38bdf8",
+    "backgroundBlurAmount": "20px"
+  }
+}
