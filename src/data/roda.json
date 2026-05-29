@@ -15,56 +15,56 @@
       "chance": 20
     },
     {
-      "id": "2",
+      "id": "3",
       "name": "Nailong",
       "image": "/images/nailong.png",
       "color": "#38bdf8",
       "chance": 2
     },
     {
-      "id": "3",
+      "id": "4",
       "name": "Wigly",
       "image": "/images/wigly.png",
       "color": "#0c4a6e",
       "chance": 20
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "Davincii",
       "image": "/images/davinci.png",
       "color": "#0369a1",
       "chance": 2
     },
     {
-      "id": "5",
+      "id": "6",
       "name": "Magplant 5000",
       "image": "/images/magplant.png",
       "color": "#0c4a6e",
       "chance": 2
     },
     {
-      "id": "6",
+      "id": "7",
       "name": "Gaia",
       "image": "/images/gaia.png",
       "color": "#1e3a8a",
       "chance": 12
     },
     {
-      "id": "7",
+      "id": "8",
       "name": "UT",
       "image": "/images/ut.png",
       "color": "#0c4a6e",
       "chance": 20
     },
     {
-      "id": "7",
+      "id": "9",
       "name": "Easter Block",
       "image": "/images/easterg.png",
       "color": "#0c4a6e",
       "chance": 20
     },
     {
-      "id": "8",
+      "id": "10",
       "name": "UWS",
       "image": "/images/uws.png",
       "color": "#172554",
