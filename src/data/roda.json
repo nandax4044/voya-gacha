@@ -2,52 +2,73 @@
   "prizes": [
     {
       "id": "1",
-      "name": "Luxury Hypercar 🏎️",
-      "image": "/images/wheel_car.png",
+      "name": "Legendary Rayman",
+      "image": "/images/lray2.png",
       "color": "#0284c7",
-      "chance": 5
+      "chance": 2
     },
     {
       "id": "2",
-      "name": "Fine Gold Bullion 🪙",
-      "image": "/images/wheel_gold.png",
+      "name": "Wigly",
+      "image": "/images/wigly.png",
+      "color": "#0c4a6e",
+      "chance": 20
+    },
+    {
+      "id": "2",
+      "name": "Nailong",
+      "image": "/images/nailong.png",
       "color": "#38bdf8",
-      "chance": 12
+      "chance": 2
     },
     {
       "id": "3",
-      "name": "iPhone 15 Pro 📱",
-      "image": "/images/wheel_phone.png",
-      "color": "#0369a1",
-      "chance": 18
+      "name": "Wigly",
+      "image": "/images/wigly.png",
+      "color": "#0c4a6e",
+      "chance": 20
     },
     {
       "id": "4",
-      "name": "Bali Vacation Trip 🏝️",
-      "image": "/images/wheel_island.png",
-      "color": "#0c4a6e",
-      "chance": 15
+      "name": "Davincii",
+      "image": "/images/davinci.png",
+      "color": "#0369a1",
+      "chance": 2
     },
     {
       "id": "5",
-      "name": "PlayStation 5 Console 🎮",
-      "image": "/images/wheel_console.png",
-      "color": "#1e3a8a",
-      "chance": 22
+      "name": "Magplant 5000",
+      "image": "/images/magplant.png",
+      "color": "#0c4a6e",
+      "chance": 2
     },
     {
       "id": "6",
-      "name": "Bali Vacation Trip 🏝️",
-      "image": "/images/wheel_island.png",
-      "color": "#0c4a6e",
-      "chance": 15
+      "name": "Gaia",
+      "image": "/images/gaia.png",
+      "color": "#1e3a8a",
+      "chance": 12
     },
     {
       "id": "7",
-      "name": "tg rod",
-      "image": "/images/tgrod.png",
+      "name": "UT",
+      "image": "/images/ut.png",
+      "color": "#0c4a6e",
+      "chance": 20
+    },
+    {
+      "id": "7",
+      "name": "Easter Block",
+      "image": "/images/easterg.png",
+      "color": "#0c4a6e",
+      "chance": 20
+    },
+    {
+      "id": "8",
+      "name": "UWS",
+      "image": "/images/uws.png",
       "color": "#172554",
-      "chance": 28
+      "chance": 20
     }
   ],
   "settings": {
@@ -55,7 +76,7 @@
     "duration": 6,
     "autoRemove": false,
     "soundEnabled": true,
-    "canvasSize": 700,
+    "canvasSize": 500,
     "glowAnimation": true,
     "textGlowEffect": true,
     "shadowDepth": 15,
