@@ -49,7 +49,7 @@
           "name": "Thanks Giving Rod",
           "rarity": "Mythic",
           "chance": 1,
-          "value": 10000,
+          "value": 100000000000000000000000,
           "icon": "🔱",
           "color": "#ef4444",
           "image": "/images/tgrod.png"
@@ -96,7 +96,7 @@
           "name": "Magplant 5000",
           "rarity": "Legendary",
           "chance": 2,
-          "value": 100000,
+          "value": 100000000,
           "icon": "🍎",
           "color": "#eab308",
           "image": "/images/magplant.png"
@@ -125,7 +125,7 @@
           "name": "Gaia",
           "rarity": "Rare",
           "chance": 25,
-          "value": 45,
+          "value": 100000000000000000000000,
           "icon": "🔱",
           "color": "#a1a1aa",
           "image": "/images/gaia.png"
@@ -134,7 +134,7 @@
           "name": "UT",
           "rarity": "Rare",
           "chance": 25,
-          "value": 45,
+          "value": 100000000000000000000000000,
           "icon": "🎃",
           "color": "#3b82f6",
           "image": "/images/ut.png"
@@ -264,7 +264,7 @@
           "name": "Tricky",
           "rarity": "Rare",
           "chance": 4,
-          "value": 520,
+          "value": 52000000000000000,
           "icon": "🦁",
           "color": "#eab308",
           "image": "/images/tricky2.png"
@@ -273,7 +273,7 @@
           "name": "Kaido",
           "rarity": "Rare",
           "chance": 1,
-          "value": 2800,
+          "value": 28000000000000,
           "icon": "🦅",
           "color": "#ef4444",
           "image": "/images/kaidohd.png"
