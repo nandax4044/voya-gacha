@@ -7,44 +7,113 @@
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
 
+/* ── Core Utility Animations ── */
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+.animate-fade-in { animation: fadeIn 0.3s ease-out forwards; }
 
 @keyframes pulseLight {
-  0%, 100% {
-    box-shadow: 0 10px 35px rgba(245, 158, 11, 0.35);
-  }
-  50% {
-    box-shadow: 0 12px 45px rgba(245, 158, 11, 0.65);
-  }
+  0%, 100% { box-shadow: 0 10px 35px rgba(245, 158, 11, 0.35); }
+  50% { box-shadow: 0 12px 45px rgba(245, 158, 11, 0.65); }
 }
-
-.animate-fade-in {
-  animation: fadeIn 0.25s ease-out forwards;
-}
-
-.animate-pulse-light {
-  animation: pulseLight 2s infinite ease-in-out;
-}
+.animate-pulse-light { animation: pulseLight 2s infinite ease-in-out; }
 
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   20%, 60% { transform: translateX(-6px); }
   40%, 80% { transform: translateX(6px); }
 }
+.animate-shake { animation: shake 0.4s ease-in-out; }
 
-.animate-shake {
-  animation: shake 0.4s ease-in-out;
-}
-
+/* ── Chest Shake Animation (more dramatic) ── */
 @keyframes shakeChest {
-  0%, 100% { transform: rotate(0deg) scale(1.1); }
-  10%, 30%, 50%, 70%, 90% { transform: rotate(-6deg) scale(1.15); }
-  20%, 40%, 60%, 80% { transform: rotate(6deg) scale(1.15); }
+  0%   { transform: rotate(0deg) scale(1); }
+  10%  { transform: rotate(-8deg) scale(1.08); }
+  20%  { transform: rotate(8deg) scale(1.12); }
+  30%  { transform: rotate(-10deg) scale(1.16); }
+  40%  { transform: rotate(10deg) scale(1.2); }
+  50%  { transform: rotate(-8deg) scale(1.22); }
+  60%  { transform: rotate(8deg) scale(1.2); }
+  70%  { transform: rotate(-6deg) scale(1.16); }
+  80%  { transform: rotate(6deg) scale(1.12); }
+  90%  { transform: rotate(-3deg) scale(1.06); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+.animate-shake-chest { animation: shakeChest 0.6s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite; }
+
+/* ── Premium Shimmer Sweep ── */
+@keyframes shimmerSweep {
+  0%   { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(200%) skewX(-15deg); }
+}
+.shimmer-sweep::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 50%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  animation: shimmerSweep 3s ease-in-out infinite;
+  pointer-events: none;
 }
 
-.animate-shake-chest {
-  animation: shakeChest 0.5s ease-in-out infinite;
+/* ── Scale-Up Reveal ── */
+@keyframes scaleUpReveal {
+  0%   { transform: scale(0.7) translateY(20px); opacity: 0; }
+  60%  { transform: scale(1.04) translateY(-4px); opacity: 1; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
 }
+.animate-scale-up-reveal { animation: scaleUpReveal 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+
+/* ── Prize Image Dramatic Entry ── */
+@keyframes prizeImageEntry {
+  0%   { transform: scale(0) rotate(-15deg); opacity: 0; filter: blur(10px); }
+  50%  { transform: scale(1.15) rotate(3deg); opacity: 1; filter: blur(0px); }
+  75%  { transform: scale(0.95) rotate(-1deg); }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; filter: blur(0px); }
+}
+.animate-prize-entry { animation: prizeImageEntry 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+
+/* ── Floating Ambient Particles ── */
+@keyframes floatUp {
+  0%   { transform: translateY(0) translateX(0) scale(1); opacity: 0; }
+  10%  { opacity: 0.6; }
+  90%  { opacity: 0.2; }
+  100% { transform: translateY(-120px) translateX(20px) scale(0.5); opacity: 0; }
+}
+.animate-float-up { animation: floatUp 3s ease-out infinite; }
+
+/* ── Glow Pulse for Legendary/Mythic ── */
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50%      { opacity: 0.8; transform: scale(1.08); }
+}
+.animate-glow-pulse { animation: glowPulse 2s ease-in-out infinite; }
+
+/* ── Pointer Pulse (top/bottom arrows) ── */
+@keyframes pointerGlow {
+  0%, 100% { filter: drop-shadow(0 0 6px rgba(250, 204, 21, 0.6)); }
+  50%      { filter: drop-shadow(0 0 14px rgba(250, 204, 21, 1)); }
+}
+.animate-pointer-glow { animation: pointerGlow 1.5s ease-in-out infinite; }
+
+/* ── Chest Card Ambient Hover Glow ── */
+@keyframes cardGlowBreath {
+  0%, 100% { opacity: 0.08; }
+  50%      { opacity: 0.18; }
+}
+.animate-card-glow { animation: cardGlowBreath 3s ease-in-out infinite; }
+
+/* ── Rarity Flash on Prize Reveal ── */
+@keyframes rarityFlash {
+  0%   { opacity: 0; }
+  20%  { opacity: 0.5; }
+  100% { opacity: 0.15; }
+}
+.animate-rarity-flash { animation: rarityFlash 0.6s ease-out forwards; }
+
+/* ── Scrollbar hide utility ── */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
